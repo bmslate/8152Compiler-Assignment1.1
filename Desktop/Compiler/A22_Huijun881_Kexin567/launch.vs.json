@@ -1,0 +1,16 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "A22.exe",
+      "name": "A22.exe",
+      "args": [
+        "s",
+        "C:/Users/BU1/source/repos/A22/Error.pr"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# Global var (debug)
+debug <- FALSE
+
+# Procedure datatypes
+datatypes <- function() {
+    countryName <- 'Bulgary'
+    foundationYear <- 7000
+    area <- 492.0
+    
+    if (debug) {
+        print(class(countryName))
+        print(class(foundationYear))
+        print(class(area))
+    }
+    
+    cat(countryName, 'was founded in:', foundationYear, 'and has', area, 'km2 area\n')
+}
+
+# Running datatypes (main)
+datatypes()

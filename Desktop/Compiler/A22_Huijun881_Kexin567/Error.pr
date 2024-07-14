@@ -1,0 +1,10 @@
+#Sofia Example 2
+
+main& {
+	1data {
+	}
+	@
+	code [
+		print&('Hello world!');
+	}
+}
